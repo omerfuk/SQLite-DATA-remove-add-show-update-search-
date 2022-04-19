@@ -18,8 +18,22 @@ class ViewController: UIViewController {
         //Kisilerdao().kisiGuncelle(kisi_id: 1, kisi_ad: "Yeni Ahmet", kisi_yas: 24)
 //        let sonuc = Kisilerdao().kisiKontrol(kisi_ad: "Ahmetx")
 //        print("Sonuç : \(sonuc)")
+       
+        
+        let kisi = Kisilerdao().kisiGetir(kisi_id: 1)
+        
+        print("Gelen Kişi : \(kisi.kisi_ad!)")
+       
+//        let gelenListe = Kisilerdao().aramaYap(kisi_ad: "et")
+        
 //        let gelenListe = Kisilerdao().tumKisilerAl()
-        let gelenListe = Kisilerdao().aramaYap(kisi_ad: "et")
+        
+//        let gelenListe = Kisilerdao().tumKisilerAlLIMIT()
+        
+        let gelenListe = Kisilerdao().rastgeleIkiKisiAl()
+        
+        
+        
         
         for k in gelenListe {
             print("ID : \(k.kisi_id!)-- AD : \(k.kisi_ad!)-- YAS : \(k.kisi_yas!)")
