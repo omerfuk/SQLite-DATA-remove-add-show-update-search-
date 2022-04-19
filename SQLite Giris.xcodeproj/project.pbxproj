@@ -16,6 +16,15 @@
 		DE79E4EE280EFAE4007600BF /* SQLite_GirisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79E4ED280EFAE4007600BF /* SQLite_GirisTests.swift */; };
 		DE79E4F8280EFAE4007600BF /* SQLite_GirisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79E4F7280EFAE4007600BF /* SQLite_GirisUITests.swift */; };
 		DE79E4FA280EFAE4007600BF /* SQLite_GirisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79E4F9280EFAE4007600BF /* SQLite_GirisUITestsLaunchTests.swift */; };
+		DE79E508280EFB2F007600BF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DE79E507280EFB1C007600BF /* libsqlite3.tbd */; };
+		DE79E515280EFB9D007600BF /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DE79E50A280EFB9D007600BF /* FMDatabasePool.m */; };
+		DE79E516280EFB9D007600BF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DE79E50C280EFB9D007600BF /* FMDatabaseQueue.m */; };
+		DE79E517280EFB9D007600BF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DE79E50D280EFB9D007600BF /* FMResultSet.m */; };
+		DE79E518280EFB9D007600BF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE79E50E280EFB9D007600BF /* FMDatabaseAdditions.m */; };
+		DE79E519280EFB9D007600BF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DE79E50F280EFB9D007600BF /* FMDatabase.m */; };
+		DE79E51B280EFEAA007600BF /* kisilergiris.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DE79E51A280EFEAA007600BF /* kisilergiris.sqlite */; };
+		DE79E51D280F021D007600BF /* Kisiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79E51C280F021D007600BF /* Kisiler.swift */; };
+		DE79E51F280F027E007600BF /* Kisilerdao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE79E51E280F027E007600BF /* Kisilerdao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,22 @@
 		DE79E4F3280EFAE4007600BF /* SQLite GirisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SQLite GirisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE79E4F7280EFAE4007600BF /* SQLite_GirisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite_GirisUITests.swift; sourceTree = "<group>"; };
 		DE79E4F9280EFAE4007600BF /* SQLite_GirisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite_GirisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE79E507280EFB1C007600BF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DE79E509280EFB9C007600BF /* SQLite Giris-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLite Giris-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE79E50A280EFB9D007600BF /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DE79E50B280EFB9D007600BF /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DE79E50C280EFB9D007600BF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DE79E50D280EFB9D007600BF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DE79E50E280EFB9D007600BF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DE79E50F280EFB9D007600BF /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DE79E510280EFB9D007600BF /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DE79E511280EFB9D007600BF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DE79E512280EFB9D007600BF /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DE79E513280EFB9D007600BF /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		DE79E514280EFB9D007600BF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DE79E51A280EFEAA007600BF /* kisilergiris.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = kisilergiris.sqlite; sourceTree = "<group>"; };
+		DE79E51C280F021D007600BF /* Kisiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisiler.swift; sourceTree = "<group>"; };
+		DE79E51E280F027E007600BF /* Kisilerdao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisilerdao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE79E508280EFB2F007600BF /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +109,7 @@
 				DE79E4EC280EFAE4007600BF /* SQLite GirisTests */,
 				DE79E4F6280EFAE4007600BF /* SQLite GirisUITests */,
 				DE79E4D4280EFAE1007600BF /* Products */,
+				DE79E506280EFB1B007600BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +126,28 @@
 		DE79E4D5280EFAE1007600BF /* SQLite Giris */ = {
 			isa = PBXGroup;
 			children = (
+				DE79E51A280EFEAA007600BF /* kisilergiris.sqlite */,
 				DE79E4D6280EFAE1007600BF /* AppDelegate.swift */,
 				DE79E4D8280EFAE1007600BF /* SceneDelegate.swift */,
+				DE79E51E280F027E007600BF /* Kisilerdao.swift */,
 				DE79E4DA280EFAE1007600BF /* ViewController.swift */,
+				DE79E51C280F021D007600BF /* Kisiler.swift */,
 				DE79E4DC280EFAE1007600BF /* Main.storyboard */,
 				DE79E4DF280EFAE3007600BF /* Assets.xcassets */,
 				DE79E4E1280EFAE3007600BF /* LaunchScreen.storyboard */,
 				DE79E4E4280EFAE3007600BF /* Info.plist */,
+				DE79E512280EFB9D007600BF /* FMDatabase.h */,
+				DE79E50F280EFB9D007600BF /* FMDatabase.m */,
+				DE79E514280EFB9D007600BF /* FMDatabaseAdditions.h */,
+				DE79E50E280EFB9D007600BF /* FMDatabaseAdditions.m */,
+				DE79E510280EFB9D007600BF /* FMDatabasePool.h */,
+				DE79E50A280EFB9D007600BF /* FMDatabasePool.m */,
+				DE79E50B280EFB9D007600BF /* FMDatabaseQueue.h */,
+				DE79E50C280EFB9D007600BF /* FMDatabaseQueue.m */,
+				DE79E513280EFB9D007600BF /* FMDB.h */,
+				DE79E511280EFB9D007600BF /* FMResultSet.h */,
+				DE79E50D280EFB9D007600BF /* FMResultSet.m */,
+				DE79E509280EFB9C007600BF /* SQLite Giris-Bridging-Header.h */,
 			);
 			path = "SQLite Giris";
 			sourceTree = "<group>";
@@ -125,6 +167,14 @@
 				DE79E4F9280EFAE4007600BF /* SQLite_GirisUITestsLaunchTests.swift */,
 			);
 			path = "SQLite GirisUITests";
+			sourceTree = "<group>";
+		};
+		DE79E506280EFB1B007600BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE79E507280EFB1C007600BF /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +245,7 @@
 				TargetAttributes = {
 					DE79E4D2280EFAE1007600BF = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					DE79E4E8280EFAE4007600BF = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -231,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE79E51B280EFEAA007600BF /* kisilergiris.sqlite in Resources */,
 				DE79E4E3280EFAE3007600BF /* LaunchScreen.storyboard in Resources */,
 				DE79E4E0280EFAE3007600BF /* Assets.xcassets in Resources */,
 				DE79E4DE280EFAE1007600BF /* Main.storyboard in Resources */,
@@ -258,9 +310,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE79E517280EFB9D007600BF /* FMResultSet.m in Sources */,
+				DE79E516280EFB9D007600BF /* FMDatabaseQueue.m in Sources */,
 				DE79E4DB280EFAE1007600BF /* ViewController.swift in Sources */,
+				DE79E515280EFB9D007600BF /* FMDatabasePool.m in Sources */,
 				DE79E4D7280EFAE1007600BF /* AppDelegate.swift in Sources */,
+				DE79E518280EFB9D007600BF /* FMDatabaseAdditions.m in Sources */,
 				DE79E4D9280EFAE1007600BF /* SceneDelegate.swift in Sources */,
+				DE79E519280EFB9D007600BF /* FMDatabase.m in Sources */,
+				DE79E51F280F027E007600BF /* Kisilerdao.swift in Sources */,
+				DE79E51D280F021D007600BF /* Kisiler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7CRNJ953YN;
@@ -455,6 +515,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.SQLite-Giris";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLite Giris/SQLite Giris-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,6 +527,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7CRNJ953YN;
@@ -483,6 +546,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.omerKilicaslan.SQLite-Giris";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLite Giris/SQLite Giris-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
